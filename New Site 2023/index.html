@@ -43,6 +43,12 @@ Our Products:
   
 </head>
 <body>
+
+<div class="load" id="load">
+<img src="assets/images/tdt.gif" alt="" class="load__gif" ondragstart="return false;">
+</div>
+
+<div class="disable">
   
   <section data-bs-version="5.1" class="menu menu3 cid-trckItaAuQ" once="menu" id="menu3-4f">
     
@@ -104,6 +110,40 @@ Our Products:
                 <p class="mbr-text mbr-white mbr-fonts-style display-5"><strong>
                     #We Make Batter Better
                 </strong></p>
+
+                    <p id="demo" style="text-align: Center; font-size: 25px; color: #ffff;"></p>
+
+                    <script>
+                    // Set the date we're counting down to
+                    var countDownDate = new Date("Dec 31, 2022 12:00:00").getTime();
+                    
+                    // Update the count down every 1 second
+                    var x = setInterval(function() {
+                    
+                      // Get today's date and time
+                      var now = new Date().getTime();
+                        
+                      // Find the distance between now and the count down date
+                      var distance = countDownDate - now;
+                        
+                      // Time calculations for days, hours, minutes and seconds
+                      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        
+                      // Output the result in an element with id="demo"
+                      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                      + minutes + "m " + seconds + "s ";
+                        
+                      // If the count down is over, write some text 
+                      if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("demo").innerHTML = "Happy New Year 🎊🎉🥳";
+                      }
+                    }, 1000);
+                    </script>
+
                 <div class="mbr-section-btn mt-3"><a class="btn btn-danger display-4" href="index.html#features12-1g"><span class="mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn"></span>Learn More</a></div>
             </div>
         </div>
@@ -542,7 +582,7 @@ Our Products:
             </div>
             <div class="col-12 mt-4">
                 <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7">
-                    © Copyright 2022  <a href="index.html#top" class="text-black" style="">BKK's Agro Foods</a> - All Rights Reserved <br>Powered by -&nbsp;❤️<a href="https://bit.ly/thedteam" class="text-black" target="_blank" style="">The 'D Team</a>&nbsp;</p>
+                    © 2022  <a href="index.html#top" class="text-black" style="">BKK's Agro Foods</a> - All Rights Reserved <br>Powered by -&nbsp;❤️<a href="https://bit.ly/thedteam" class="text-black" target="_blank" style="">The 'D Team</a>&nbsp;</p>
             </div>
         </div>
     </div>
@@ -582,9 +622,10 @@ Our Products:
        </h10>				
     </div>
   </div>  
-</section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/popper/popper.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/viewportchecker/viewportchecker.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/popper/popper.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/viewportchecker/viewportchecker.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>      <script src="assets\mobirise\js\preloader.js"></script>                    
   
   
   <input name="animation" type="hidden">
+</div>
   </body>
 </html>
