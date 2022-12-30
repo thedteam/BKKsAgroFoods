@@ -6634,7 +6634,7 @@ a {
 .cid-truTZQiNCc {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background: #fafafa;
+  background: #ffffff;
 }
 .cid-truTZQiNCc .mbr-fallback-image.disabled {
   display: none;
@@ -6696,7 +6696,7 @@ a {
   justify-content: center;
   align-content: center;
   color: #6592e6;
-  font-size: 1.5rem;
+  font-size: 1.5 rem;
 }
 .cid-truTZQiNCc .social-row .soc-item:hover {
   background-color: #6592e6;
@@ -6715,6 +6715,17 @@ a {
 .cid-truTZQiNCc .social-row {
   color: #000000;
 }
+
+@media only screen and (max-width: 480px) {
+
+  .cid-truTZQiNCc {
+    padding: 0 !important;
+    text-align: center !important;
+  }
+
+}
+
+
 
 /*----------------------------
     Disable Text Selection
